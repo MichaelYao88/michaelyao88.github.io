@@ -19,9 +19,11 @@ nav {background-color:#DC381F;
      clear:left;
     }
 nav a:link {text-decoration: none;
-            color:white;}
+            color:white;
+            font-weight:bold;}
 
-nav a:visited{color:white}
+nav a:visited{color:white;
+            font-weight:bold;}
 
 table{margin-left:auto; 
     margin-right:auto;
