@@ -44,8 +44,10 @@ section{background-color:white;
         padding: 20px;
         overflow:hidden;
         }
-img{float: right;
+section img{float: right;
 display:inline-block;}
+
+section .icons img{float:left; display:inline-block;}
 
 aside{float: right;
  background-color:#F8F8FF;
@@ -53,6 +55,12 @@ aside{float: right;
  margin-left:1em;
  font-family:arial;
 }
+
+.icons img{width: 2em;
+            height:2em;
+            margin:.3em;}
+
+footer{float:right;}
 
 aside a:link{ font-family:arial;
               text-decoration:none;}
